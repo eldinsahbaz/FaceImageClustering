@@ -215,7 +215,7 @@ faceMatrix = createFaceMatrix(faces)
 eigfaces = eigenFaces(faceMatrix)
 similarityMatrix = similarity(eigfaces)
 
-labels = AffinityPropagation(affinity='precomputed').fit_predict(similarityMatrix)
+labels = AffinityPropagation().fit_predict(similarityMatrix)
 nx.draw(nx.from_numpy_matrix(similarityMatrix))
 plt.show()
 graphSubClusters(faces, similarityMatrix, labels)
