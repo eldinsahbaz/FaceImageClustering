@@ -1,4 +1,4 @@
-import cv2, os, math, pywt
+import cv2, os, math
 from sys import maxint
 import numpy as np
 import scipy as sp
