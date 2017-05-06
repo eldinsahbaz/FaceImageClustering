@@ -17,7 +17,6 @@ To run the FaceClustering Python Code:
     scikit-learn<br />
     Pillow<br />
     OpenCV<br />
-    PyWavelets<br />
 
 2) Extract all the images from the DataSet zip file into the same directory as the python script. Make sure that the Haar xml files are in the same directory as the python script
 
